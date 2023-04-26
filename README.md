@@ -19,11 +19,12 @@
  - AWS EC2연동을 통한 CICD구현
 
 ### ⚙️ 개발 환경
-- `Java 11`
+- `Java 11` `HTML5` `CSS3`
 - `JDK 1.8.0`
-- `IDE` : STS 4.17.1
+- `IDE` : IntelliJ IDEA, Visual Studio Code
 - `Framework` : Springboot(2.7.8)
 - `Database` : MySQL
+- `ORM` : JPA
 
 ## 📌 주요 기능
 #### 상품 <a href="https://rainbow-emmental-182.notion.site/c11a1eba23c749e18a47725044a8c7fa">상세보기 - Notion 이동</a>
