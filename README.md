@@ -1,9 +1,9 @@
 # SpringBoot-Project-with 크몽
 
 ## 🖥️ 프로젝트 소개
-크몽을 참고하여 만든 자기계발, 재능기부 사이트입니다.
-<a href="https://drive.google.com/file/d/1e7to-LGMiLGzNWV1tLasURpT95gG9nzP/view?usp=share_link">프로젝트PPT</a>
-<br>
+크몽을 참고하여 만든 자기계발, 재능기부 사이트입니다.<br>
+<a href="https://drive.google.com/file/d/1e7to-LGMiLGzNWV1tLasURpT95gG9nzP/view?usp=share_link">프로젝트PPT(영상포함)</a><br>
+
 - 웹소켓을 활용한 ChatBot
 - 구글, 네이버, 카카오 로그인 구현
 
