@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="stylesheet" th:href="@{/css/member/findEmailOk.css}">
+</head>
+<body>
+<div th:replace="~{fragments/common/header :: headerFragment}"></div>
+
+<div class="container">
+    <div class="findEmailOk">
+        <div class="findEmailOk-con">
+                <div class="findEmailOk-form">
+                    <ul>
+                        <li>
+                            <th:block>
+                                <span th:if="${memberDto}==null">등록된 사용자가 없습니다</span>
+                                <a th:if="${memberDto}==null" th:href="@{/member/findEmail}" class="findBtn">이메일 찾기</a>
+                                <a th:if="${memberDto}==null" th:href="@{/member/signUp}" class="signUpBtn">회원가입</a>
+                            </th:block>
+                        </li>
+
+                        <li>
+                            <th:block>
+                                <span th:unless="${memberDto}==null" th:text="${memberDto.userEmail}"></span>
+                                <a th:unless="${memberDto}==null" th:href="@{/member/login}" class="loginBtn">로그인</a>
+                                <a th:unless="${memberDto}==null" th:href="@{/}" class="homeBtn">HOME</a>
+                            </th:block>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+</div>
+
+<div th:replace="~{fragments/common/footer :: footerFragment}"></div>
+</body>
+</html>

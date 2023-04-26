@@ -1,0 +1,55 @@
+@import url(../common/reset.css);
+@import url(../common/header.css);
+@import url(../common/footer.css);
+@import url(../common/wishLeftDetail.css);
+@import url(../common/memberRightList.css);
+
+
+.container{
+    padding-top: 80px;
+    width: 100vw;
+    height: auto;
+}
+
+.container .detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .detail .right-menu .detail-form ul li.s2 span:nth-child(1){
+    flex: 1;
+    text-align: center;
+/*     padding: 5px; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    box-sizing: border-box;
+    border-right: 2px solid #cccccc;
+}
+
+
+.container .detail .right-menu .detail-form ul li.s2 span:nth-child(2){
+    flex: 3;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.container .detail .right-menu .detail-form ul li.s3 button{
+
+    /* margin-right: 10px; */
+    background-color: darkblue;
+    width: 100px;
+    height: 50px;
+    border: 0px;
+}
+
+.container .detail .right-menu .detail-form ul li.s3 button a{
+
+    color: white;
+
+}

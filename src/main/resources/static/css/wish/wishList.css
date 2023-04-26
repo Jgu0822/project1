@@ -1,0 +1,30 @@
+@import url(../common/reset.css);
+@import url(../common/header.css);
+@import url(../common/footer.css);
+@import url(../common/wishLeftDetail.css);
+@import url(../common/wishRightList.css);
+
+
+.container{
+    padding-top: 80px;
+    width: 100vw;
+    height: auto;
+}
+
+.container .detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.container .detail .right-menu .listBox .listTable .tHeader th:nth-child(3) {
+    width: 100px;
+}
+
+.container .detail .right-menu .listBox .listTable .tHeader th:nth-child(4) {
+    width:  700px;
+}
+
+
+

@@ -1,0 +1,22 @@
+@import url(../common/reset.css);
+@import url(../common/header.css);
+@import url(../common/footer.css);
+@import url(../common/wishLeftDetail.css);
+@import url(../common/wishRightList.css);
+
+
+.container{
+    padding-top: 80px;
+    width: 100vw;
+    height: auto;
+}
+
+.container .detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap : 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+

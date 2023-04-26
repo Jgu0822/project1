@@ -1,0 +1,181 @@
+@import url(../common/header.css);
+@import url(../common/footer.css);
+@import url(../common/reset.css);
+
+/* 로그인 에러 메세지 */
+.error p a{
+  color:#ff0000;
+  font-size:12px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* 텍스트 상자 클릭시 테두리 제거 */
+input{
+  outline: none;
+}
+
+/* 로그인 폼 */
+.container{
+  
+}
+
+.container .login{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .login .login-con{
+  width: 350px;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  background-color: #ffffff;
+  border: 1px solid #e8e8e8;
+}
+
+.container .login .login-con .login-form{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.container .login .login-con .login-form ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.container .login .login-con .login-form ul li{
+  padding: 5px 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.container .login .login-con .login-form ul li:nth-child(1){
+  font-size: 25px;
+  color: #2196f3;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container .login .login-con .login-form ul.s1{
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  line-height: 20px;
+}
+
+.container .login .login-con .login-form ul.s1 input{
+  height: auto;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  line-height: 20px;
+}
+
+.container .login .login-con .login-form ul.s2{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* input 요소 */
+
+.container .login .login-con .login-form ul li input{
+  width: 300px;
+  height: 40px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 5px 10px;
+}
+
+.container .login .login-con .login-form ul li input:focus{
+  border: 1px solid #2196f3;
+  box-sizing: border-box;
+}
+
+/* 회원가입, 아이디 찾기 */
+.sideMenu{
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.line{
+    margin: auto 0.75rem;
+    width: 0.0625rem;
+    height: 0.75rem;
+    background-color: #e1e1e1;
+}
+
+/* SNS로그인 */
+.snsLogin{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  align-items: center;
+}
+
+/* google 로그인 */
+.google-img{
+  width: 300px;
+  height: 40px;
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+
+/* .google{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+} */
+
+/* naver 로그인 */
+.naver-img{
+  width: 300px;
+  height: 40px;
+  display: flex;
+}
+
+/* .naver{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  background-color: #03C75A;
+} */
+
+/* kakao 로그인 */
+.kakao-img{
+  width: 300px;
+  height: 40px;
+  display: flex;
+}
+
+/* 로그인 버튼 */
+#loginBtn{
+  background-color: #2196f3;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+#loginBtn:hover{
+  background-color: #1970b7;
+}

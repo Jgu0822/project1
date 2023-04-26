@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<div class="header" th:fragment="headerFragment">
+    <div class="top-header">
+        <div class="gnb1">
+            <ul>
+                <li>
+                    <a th:href="@{https://kiiiim.ncpworkplace.com/}">
+                        <img src="https://i.pinimg.com/originals/fb/71/04/fb71048e03a5ada757f70d61b583d0bf.png" style="width: 22px; height: 22px;" alt="guide">
+                        <span style="color: #19ce60;">Naver Workplace</span>
+                    </a>
+                </li>
+                <li sec:authorize="isAnonymous()">
+                    <a th:href="@{/member/signUp}">
+                        <img th:src="@{/img/icon/signup.png}" alt="signup">
+                        <span>회원가입</span>
+                    </a>
+                </li>
+
+                <li class="login_open" sec:authorize="isAnonymous()">
+                    <a th:href="@{/member/login}">
+                        <img th:src="@{/img/icon/signin.png}" alt="signin">
+                        <span style="color: blue;">로그인</span>
+                    </a>
+                </li>
+
+                <li sec:authorize="isAuthenticated()">
+                    <a th:href="@{/member/detail}">
+                        <img th:src="@{/img/icon/member.png}" alt="member">
+                        <span>회원정보</span>
+                    </a>
+                </li>
+
+                <li sec:authorize="hasRole('ADMIN')">
+                    <a th:href="@{/admin}">
+                        <img th:src="@{/img/icon/admin.png}" alt="admin">
+                        <span>Admin</span>
+                    </a>
+                </li>
+
+                <li sec:authorize="isAuthenticated()">
+                    <a th:href="@{/logout}">
+                        <img th:src="@{/img/icon/logout.png}" alt="logout">
+                        <span style="color: red;">로그아웃</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="bottom-header">
+        <a th:href="@{/}"><img th:src="@{/img/logo4.png}" alt="logo"></a>
+        <div class="gnb2">
+            <ul>
+                <li><a th:href="@{/product/productList(productType=it)}">IT</a></li>
+                <li><a th:href="@{/product/productList(productType=design)}">디자인</a></li>
+                <li><a th:href="@{/product/productList(productType=enter)}">예체능</a></li>
+                <li><a th:href="@{/product/productList(productType=office)}">사무</a></li>
+                <li><a th:href="@{/product/productList(productType=marketing)}">마케팅</a></li>
+                <li><a th:href="@{/product/productList(productType=invest)}">재테크</a></li>
+            </ul>
+        </div>
+        <form th:action="@{/product/productList/searchAll}">
+            <input type="search" name="search" id="search">
+            <input type="submit" value="검색">
+        </form>
+    </div>
+
+</div>
