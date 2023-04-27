@@ -6,6 +6,7 @@
 - 웹소켓을 활용한 ChatBot
 - 구글, 네이버, 카카오 로그인 구현
 #### 프로젝트 <a href="https://drive.google.com/file/d/1e7to-LGMiLGzNWV1tLasURpT95gG9nzP/view?usp=share_link">PPT(영상포함) - 링크 이동</a><br>
+⚠️ 동영상 이미지 클릭시 동영상이 재생됩니다.<br>
 #### 1차 프로젝트 <a href="https://drive.google.com/file/d/1-1m3UyElNWEPgG_baulx_nT4XcNUZitY/view?usp=share_link">ERD - 링크 이동</a><br>
 
 ## 🕰️ 개발 기간
