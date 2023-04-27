@@ -43,7 +43,7 @@
 - 상품 상세 리스트 (관리자용)
 #### 상품 삭제 <a href="https://rainbow-emmental-182.notion.site/b114ba618a654a8785333e4ce88c2fc9">상세보기 - Notion 이동</a>
 - 상품 삭제(관리자용)
-#### CICD 구현 <a href="https://rainbow-emmental-182.notion.site/CICD-6caa8908f0ad413687e8fb64f7aa6c77">상세보기 - Notion 이동</a>
+#### CICD 구현 <a href="https://github.com/Jgu0822/project1/wiki/CICD">상세보기 - Wiki 이동</a>
 - Git Action 빌드 자동화 구현
 - AWS Ec2 연동을 통한 CICD 구현
 
